@@ -16,11 +16,13 @@ Technologies Used
 * Database: MySQL, mysql-connector-python, TiDB Cloud  Frontend: Streamlit  
 
 Execution Instructions
-To run the analytics dashboard locally, follow these steps:
+To run the analytics dashboard and web scraper locally, follow these steps:
 
 1. Open your Mac Terminal or Windows Command Prompt.
-2. Navigate to the project root folder containing app.py.  
-3. Install the required Python libraries by running: 
-	pip3 install streamlit mysql-connector-python.  
-4. Execute the application by running: 
-	streamlit run app.py.  
+2. Navigate to the project root folder containing app.py.
+3. Create a virtual environment by running: python3 -m venv venv
+4. Activate the virtual environment:
+	* On Mac/Linux: source venv/bin/activate
+	* On Windows: venv\Scripts\activate
+5. Install the required Python libraries by running: pip3 install streamlit mysql-connector-python requests beautifulsoup4
+6. Execute the application by running: streamlit run app.py

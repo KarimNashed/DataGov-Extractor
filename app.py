@@ -227,7 +227,7 @@ elif menu_choice == "8. Aggregated Statistics":
 
 #Top 5 Datasets by number of users
 elif menu_choice == "9. Top 5 Datasets by Users":
-    st.header("Most Used Datasets")
+    st.header("Top 5 Most Used Datasets")
     mydb = get_database_connection()
     mycursor = mydb.cursor()
 
@@ -274,7 +274,7 @@ elif menu_choice == "10. Dataset Distribution by Project":
 
 # Top 10 Tags for every Project Category
 elif menu_choice == "11. Top 10 Tags per Project Type":
-    st.header("Top Tags by Project Type")
+    st.header("Top 10 Tags by Project Type")
     proj_type = st.text_input("Enter Project Category (e.g., analytics, machine learning):")
 
     if st.button("Find Tags"):
