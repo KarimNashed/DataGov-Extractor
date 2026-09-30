@@ -9,3 +9,5 @@ __pycache__/
 .DS_Store.idea/
 *.iml
 .streamlit/secrets.toml
+.streamlit/secrets.toml
+.idea/ # drops the IDE folder from the repo
