@@ -1,13 +1,14 @@
-# Ignore Streamlit secrets
+# Streamlit secrets (DB credentials)
 .streamlit/secrets.toml
 
-# Ignore standard Python cache files
+# Python
 __pycache__/
 *.pyc
+venv/
 
-# Ignore Mac system files (if applicable)
-.DS_Store.idea/
+# IDE
+.idea/
 *.iml
-.streamlit/secrets.toml
-.streamlit/secrets.toml
-.idea/ # drops the IDE folder from the repo
+
+# macOS
+.DS_Store
