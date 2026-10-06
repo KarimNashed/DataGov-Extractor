@@ -4,9 +4,8 @@ An end-to-end data pipeline that collects dataset metadata from
 [catalog.data.gov](https://catalog.data.gov), stores it in a normalized MySQL
 database, and serves an interactive analytics dashboard with Streamlit.
 
-<!-- Add a screenshot of the running dashboard as docs/dashboard.png, then uncomment:
 ![Dashboard](docs/dashboard.png)
--->
+
 
 ## What it does
 
